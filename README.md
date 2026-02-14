@@ -31,14 +31,22 @@ Pour tester l'interaction utilisateur, j'ai ouvert la barre de recherche globale
 8 Risques et 8 Mesures défensives :
 
 Risques	Mesures défensives
-Intégrité non garantie :	Réseau isolé
-Surface d’attaque accrue :	Données fictives uniquement
-Données sensibles exposées :	Device/AVD dédié aux tests
-Instabilité système	Snapshots : / wipe fin de séance
-Mélange comptes perso/test :	Journal de configuration détaillé
-Mauvais nettoyage fin de séance	 :Aucun compte personnel
-Réseau non isolé :	Contrôle strict des APK installées
-Traçabilité insuffisante :	Horodatage + captures pour traçabilité
+
+Intégrité non garantie :	Réseau isolé.
+
+Surface d’attaque accrue :	Données fictives uniquement.
+
+Données sensibles exposées :	Device/AVD dédié aux tests.
+
+Instabilité système	Snapshots : / wipe fin de séance.
+
+Mélange comptes perso/test :	Journal de configuration détaillé.
+
+Mauvais nettoyage fin de séance	 :Aucun compte personnel.
+
+Réseau non isolé :	Contrôle strict des APK installées.
+
+Traçabilité insuffisante :	Horodatage + captures pour traçabilité.
 
 MASVS (2 exigences résumées)
 
@@ -49,11 +57,17 @@ NETWORK-1 → Communications réseau sécurisées via TLS et vérification des c
 Fiche environnement
 
 Date/auteur : 14/02/2026 – Ayoub Yousri
+
 Support : AVD Pixel 6 API 33 (Google APIs, sans Play Store)
+
 App + version : TP1 debug
+
 3 scénarios : Écran d’accueil, recherche, détail
+
 Observations : Fonctionnement normal, aucune erreur
+
 Limites : Fastboot non disponible sur AVD
+
 Reset effectué : Oui (via wipe / suppression userdata)
 
 
